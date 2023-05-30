@@ -92,3 +92,38 @@ botaoLogin.addEventListener('click', (event) =>{
     }
 })
 
+function handleCredentialResponse(response) {
+  const data = jwt_decode(response.credential);
+  const user = {
+      email: data.email,
+      password: '',
+      nome: data.nome
+  }
+  let users = JSON.parse(localStorage.getItem('visitantes'));
+  if (users) {
+      const userFind = users.find(post => post.email === user.email);
+      if (!userFind) {
+          users.push(user);
+          localStorage.setItem('visitantes', JSON.stringify(users));
+      }
+  } else {
+      localStorage.setItem('visitantes', JSON.stringify([user]));
+  }
+  localStorage.setItem('userLogado', JSON.stringify(user));
+  window.location.href = 'index.html';
+}
+
+window.onload = function () {
+
+  google.accounts.id.initialize({
+      client_id: "469107567117-fcd1tbc4qn4o3pb8h4ji4qi7k7k7q3t0.apps.googleusercontent.com",
+      callback: handleCredentialResponse
+  });
+
+  google.accounts.id.renderButton(
+      document.getElementById("googlebtn"),
+      { theme: "outline", size: "large" }  // customization attributes
+  );
+
+  google.accounts.id.prompt(); // also display the One Tap dialog
+}
