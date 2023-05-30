@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ExploreMakers</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Free HTML Templates" name="keywords">
+  <meta content="Free HTML Templates" name="description">
+
+  <!-- Favicon -->
+  <link href="img/Icone.JPG" rel="icon">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Toggle libraries -->
+
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!---->
+
+
+</head>
+
+<body>
+  <!-- Topbar Start -->
+  <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+          <div class="d-inline-flex align-items-center">
+            <p><i class="fa fa-envelope mr-2"></i>exploremakers@email.com</p>
+            <p class="text-body px-3">|</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+351 935158148</p>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center text-lg-right">
+          <div class="d-inline-flex align-items-center">
+            <a class="text-primary px-3" href="">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="text-primary px-3" href="">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a class="text-primary px-3" href="">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="text-primary px-3" href="">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a class="text-primary pl-3" href="">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Topbar End -->
+
+
+  <!-- Navbar Start -->
+  <div class="container-fluid position-relative nav-bar p-0">
+    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+      <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+        <a href="index.html" class="navbar-brand">
+          <h1 class="m-0 text-primary"><span class="text-dark">Explore</span>Makers</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+          <div class="navbar-nav ml-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <!--<a href="about.html" class="nav-item nav-link">Países</a>-->
+            <a href="index.html#locais" class="nav-item nav-link">Locais</a>
+            <a href="guide.html" class="nav-item nav-link ">Guias</a>
+            <a href="feedback.html" class="nav-item nav-link">FeedBack</a>
+            <a href="login.html" class="nav-item nav-link">Login</a>
+            <div class="nav-item dropdown">
+              <a href="contact.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Contactos</a>
+              <div class="dropdown-menu border-0 rounded-0 m-0">
+                <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                <a href="single.html" class="dropdown-item">Blog Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- Navbar End -->
+
+  <!--   Perfil start-->
+
+  <section style="background-color: #eee;">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col">
+          <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="login.html">Login</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Perfil Visitante</li>
+              <li class="ml-auto"><button id="logout">Logout</button></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body text-center">
+              <img src="/img/user.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+              <h5 class="my-3" id="nome">John Smith</h5>
+              <p class="text-muted mb-4" id="profissao">Full Stack Developer</p>
+
+              <div class="d-flex justify-content-center mb-2">
+                <button type="button" class="btn btn-primary">Follow</button>
+                <button type="button" class="btn btn-outline-primary ms-1">Message</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="align-items-center" style="display: flex; justify-content: center; align-items: center;">
+            <a class="btn btn-primary py-md-3 px-md-5 mt-2" onclick="openPopup('popup1')">Escrever avaliação</a>
+          </div>
+
+          <div id="popup1" class="popup">
+            <div class="popup-content">
+              <h4>Escrever avaliação</h4>
+              <div class="container-fluid py-5">
+                <div class="container py-1">
+                  <div class="text-center">
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Avaliação</h6>
+                    <h1>Avalie a sua experiência de viagem com a ExploreMakers!</h1>
+                  </div>
+                  <div class="row justify-content-center">
+
+                    <div class="contact-form bg-white" style="padding: 30px;">
+                      <div id="success"></div>
+                      <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="form-row">
+                          <!--
+                          <div class="control-group col-sm-6">
+                            <input type="text" class="form-control p-4" id="nome" placeholder="Nome" required="required"
+                              data-validation-required-message="Please enter your name" />
+                            <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="control-group col-sm-6">
+                            <input type="email" class="form-control p-4" id="email" placeholder="Email"
+                              required="required" data-validation-required-message="Please enter your email" />
+                            <p class="help-block text-danger"></p>
+                          </div>
+                          -->
+                        </div>
+                        <div class="control-group">
+                          <textarea class="form-control py-3 px-4" rows="5" id="av" placeholder="A sua avaliação"
+                            required="required" data-validation-required-message="Por favor escreva a sua avaliação"></textarea>
+                          <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="text-center">
+                          <button class="btn btn-primary py-3 px-4" type="submit" id="enviarAv">Enviar</button>
+                          <button class="btn btn-primary py-3 px-4" onclick="closePopup('popup1')">Fechar</button>
+                        </div>
+                        
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <style>
+            .popup {
+              display: none;
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              overflow: auto;
+              background-color: transparent;
+              z-index: 9999;
+            }
+
+            .popup-content {
+              position: relative;
+              margin: 20px auto;
+              padding: 20px;
+              max-width: 50%;
+              max-height: 100%;
+              background-color: #fff;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+              z-index: 1;
+            }
+          </style>
+
+          <!--
+              <div class="card mb-4 mb-lg-0">
+                <div class="card-body p-0">
+                  <ul class="list-group list-group-flush rounded-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fas fa-globe fa-lg text-warning"></i>
+                      <p class="mb-0">https://mdbootstrap.com</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-github fa-lg" style="color: #333333;"></i>
+                      <p class="mb-0">mdbootstrap</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                      <p class="mb-0">@mdbootstrap</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
+                      <p class="mb-0">mdbootstrap</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
+                      <p class="mb-0">mdbootstrap</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              -->
+        </div>
+        <div class="col-lg-8">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Email</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0" id="email">example@example.com</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Contacto</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0" id="contacto">(097) 234-5678</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">País</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0" id="pais">Bay Area, San Francisco, CA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--     TESTE      
+          <table id="tabelaDados" class="table mt-5">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Tour</th>
+                <th>Número de Participantes</th>
+                <th>Data</th>
+                <th>Horas</th>
+                <th>Preço</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          
+          <script>
+            window.addEventListener("load", function() {
+              var reservas = JSON.parse(localStorage.getItem("reservas")) || [];
+              var tabela = document.getElementById("tabelaDados");
+          
+              let loggedInUser = JSON.parse(localStorage.getItem('userLogado'))
+          
+              for (var i = 0; i < reservas.length; i++) {
+                var registro = reservas[i];
+                if (registro.user === loggedInUser.nome) { // Filtra os registros pelo nome de usuário
+                  var novaLinha = tabela.insertRow();
+                  var celulaNome = novaLinha.insertCell(0);
+                  var celulaTelefone = novaLinha.insertCell(1);
+                  var celulaTour = novaLinha.insertCell(2);
+                  var celulaParticipantes = novaLinha.insertCell(3);
+                  var celulaData = novaLinha.insertCell(4);
+                  var celulaHoras = novaLinha.insertCell(5);
+                  var celulaPreco = novaLinha.insertCell(6);
+                  var celulaEstado = novaLinha.insertCell(7);
+      
+          
+                  celulaNome.innerHTML = registro.nome;
+                  celulaTelefone.innerHTML = registro.contacto;
+                  celulaTour.innerHTML = registro.tour;
+                  celulaParticipantes.innerHTML = registro.participantes;
+                  celulaData.innerHTML = registro.data;
+                  celulaHoras.innerHTML = registro.horas;
+                  celulaPreco.innerHTML = registro.preco;
+                  celulaEstado.innerHTML = registro.estado;
+      
+                }
+              }
+            });
+          </script>-->
+
+          <!--     TESTE      -->
+
+
+          <!--
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card mb-4 mb-md-0">
+                <div class="card-body">
+                  <p class="mb-2" style="font-size:x-large;"><span class="text-primary font-italic me-1"></span><strong>
+                      Reserva</strong></p>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/porto.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="porto.html">
+                          <h3 class="text-white">PORTO</h3>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center">
+                      <div class="pl-3">
+                        <p style="font-size:larger;"><strong>Tipo de tour:</strong> Tuk Tuk</p>
+                        <p style="font-size:larger;"><strong>Duração:</strong> 2h</p>
+                        <p style="font-size:larger;"><strong>Guia:</strong> Rui Fernandes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+          <div id="reservas" class="container">
+            <div class="row"></div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--   Perfil End-->
+
+
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark py-5 pt-mt-5">
+    <div class="container pt-5 pb-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <!---->
+            <a href="index.html" class="navbar-brand" style=" overflow:visible;">
+              <h2 class="text-primary text-center"><span class="text-white">EXPLORE</span>MAKERS</h2>
+            </a>
+            <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero
+              lorem dolor dolor</p>
+            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">SEGUE-NOS</h6>
+            <div class="d-flex justify-content-center">
+              <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!---->
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <!---->
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Os nossos serviços</h5>
+            <div class="d-flex flex-column justify-content-center">
+              <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+              <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Sobre Nós</a>
+              <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Locais</a>
+              <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Os nossos Guias</a>
+              <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Reviews</a>
+              <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Login</a>
+            </div>
+            <!---->
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <!---->
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contacte-nos</h5>
+            <p><i class="fa fa-map-marker-alt mr-2"></i>Travessa das Cardosas, 17, Braga</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+351 935158148</p>
+            <p><i class="fa fa-envelope mr-2"></i>exploremakers@email.com</p>
+            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Revista e Noticias</h6>
+            <div class="w-100">
+              <div class="input-group">
+                <input type="text" class="form-control border-light" style="padding: 25px;"
+                  placeholder="Insere o teu Email">
+                <div class="input-group-append">
+                  <button class="btn btn-primary px-3">Assinar</button>
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+    style="border-color: rgba(256, 256, 256, .1) !important;">
+    <div class="row">
+      <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+        <p class="m-0 text-white-50">Copyright &copy; <a href="#">RuiCoelho</a>. Todos os direitos reservados</a>
+        </p>
+      </div>
+      <div class="col-lg-6 text-center text-md-right">
+        <p class="m-0 text-white-50">Produzido por <a href="theteam.html">Grupo 204</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+ 
+
+  <!-- Template Javascript -->
+  <!--<script src="js/main.js"></script>-->
+  <script src="js/perfil.js"></script>
+</body>
+
+</html>
