@@ -1,29 +1,29 @@
 let listaGuias = [{
     "id": "0",
-    "nome": "Guia1",
-    "linguagens": "Portugues, Ingles, Frances",
-    "imagem": "img/guide1",
+    "nome": "Tânia Ferreira",
+    "linguagens": "Português, Inglês",
+    "imagem": "img/guia1.jpg",
 },
 
 {
     "id": "1",
-    "nome": "Guia2",
-    "linguagens": "Portugues, Ingles, Frances",
-    "imagem": "img/guide2",
+    "nome": "Artur Pereira",
+    "linguagens": "Alemão, Inglês,",
+    "imagem": "img/guia2.jpg",
 },
 
 {
     "id": "2",
-    "nome": "Guia3",
-    "linguagens": "Portugues, Ingles, Frances",
-    "imagem": "img/guide3",
+    "nome": "Carolina Silva",
+    "linguagens": "Português, Inglês, Francês",
+    "imagem": "img/guia3.jpg",
 },
 
 {
     "id": "3",
-    "nome": "Guia4",
-    "linguagens": "Portugues, Ingles, Frances",
-    "imagem": "img/guide4",
+    "nome": "João Borges",
+    "linguagens": "Espanhol, Português, Francês",
+    "imagem": "img/guia4.jpg",
 },
 
 
