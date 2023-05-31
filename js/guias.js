@@ -80,7 +80,7 @@ guiasLista.forEach(guia => {
                   
                       <div class="team-item bg-white mb-4">
                           <div class="team-img position-relative overflow-hidden">
-                              <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                              <img class="img-fluid w-100" src="${guia.imagem}" alt="">
                               <div class="team-social">
                                   <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                   <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>

@@ -15,7 +15,7 @@ let listaCidades = [{
     "pais": "portugal",
     "descricao": "Cansado de passeios turísticos, pré-programados e lotados pelo país?Venha e disfrute desses passeios privados, seguros, interativos e ecológicos. Descubra os segredos de Lisboa , aprenda a sua história, cultura e tradições. Beneficie de toda a experiência e veja todas as suas perguntas respondidas, visitando as principais atrações e descobrindo joias escondidas . Confira todas os temas e roteiros disponíveis que lhe mostrarão a cidade de diferentes perspectivas.",
     "imagem1": "img/lisboa.jpg",
-    "imagem2": "img/lisboa2.jpg",
+    "imagem2": "img/lisboa4.jpeg",
 },
 
 {
@@ -25,7 +25,7 @@ let listaCidades = [{
     "pais": "finlândia",
     "descricao": "Cansado de passeios turísticos, pré-programados e lotados pelo país?Venha e disfrute desses passeios privados, seguros, interativos e ecológicos. Descubra os segredos de Helsínquia , aprenda a sua história, cultura e tradições. Beneficie de toda a experiência e veja todas as suas perguntas respondidas, visitando as principais atrações e descobrindo joias escondidas . Confira todas os temas e roteiros disponíveis que lhe mostrarão a cidade de diferentes perspectivas.",
     "imagem1": "img/helsinquia.png",
-    "imagem2": "",
+    "imagem2": "img/helsinquia2.jpg",
 },
 
 {
@@ -35,7 +35,7 @@ let listaCidades = [{
     "pais": "frança",
     "descricao": "Cansado de passeios turísticos, pré-programados e lotados pelo país?Venha e disfrute desses passeios privados, seguros, interativos e ecológicos. Descubra os segredos de Paris , aprenda a sua história, cultura e tradições. Beneficie de toda a experiência e veja todas as suas perguntas respondidas, visitando as principais atrações e descobrindo joias escondidas . Confira todas os temas e roteiros disponíveis que lhe mostrarão a cidade de diferentes perspectivas.",
     "imagem1": "img/paris.jpg",
-    "imagem2": "",
+    "imagem2": "img/paris2.jpg",
 },
 
 {
@@ -45,7 +45,7 @@ let listaCidades = [{
     "pais": "eslovénia",
     "descricao": "Cansado de passeios turísticos, pré-programados e lotados pelo país?Venha e disfrute desses passeios privados, seguros, interativos e ecológicos. Descubra os segredos de Bratislava , aprenda a sua história, cultura e tradições. Beneficie de toda a experiência e veja todas as suas perguntas respondidas, visitando as principais atrações e descobrindo joias escondidas . Confira todas os temas e roteiros disponíveis que lhe mostrarão a cidade de diferentes perspectivas.",
     "imagem1": "img/bratislava.jpg",
-    "imagem2": "",
+    "imagem2": "img/bratislava2.jpg",
 },
 
 {
@@ -55,7 +55,7 @@ let listaCidades = [{
     "pais": "grécia",
     "descricao": "Cansado de passeios turísticos, pré-programados e lotados pelo país?Venha e disfrute desses passeios privados, seguros, interativos e ecológicos. Descubra os segredos de Santorini , aprenda a sua história, cultura e tradições. Beneficie de toda a experiência e veja todas as suas perguntas respondidas, visitando as principais atrações e descobrindo joias escondidas . Confira todas os temas e roteiros disponíveis que lhe mostrarão a cidade de diferentes perspectivas.",
     "imagem1": "img/santorini.jpg",
-    "imagem2": "",
+    "imagem2": "img/santorini2.jpg",
 },
 
 {
@@ -65,7 +65,7 @@ let listaCidades = [{
     "pais": "espanha",
     "descricao": "Cansado de passeios turísticos, pré-programados e lotados pelo país?Venha e disfrute desses passeios privados, seguros, interativos e ecológicos. Descubra os segredos de Barcelona , aprenda a sua história, cultura e tradições. Beneficie de toda a experiência e veja todas as suas perguntas respondidas, visitando as principais atrações e descobrindo joias escondidas . Confira todas os temas e roteiros disponíveis que lhe mostrarão a cidade de diferentes perspectivas.",
     "imagem1": "img/Barcelona.jpg",
-    "imagem2": "",
+    "imagem2": "img/barcelona2.jpg",
 },
  
 {
@@ -75,7 +75,7 @@ let listaCidades = [{
     "pais": "hungria",
     "descricao": "Cansado de passeios turísticos, pré-programados e lotados pelo país?Venha e disfrute desses passeios privados, seguros, interativos e ecológicos. Descubra os segredos de Budapeste , aprenda a sua história, cultura e tradições. Beneficie de toda a experiência e veja todas as suas perguntas respondidas, visitando as principais atrações e descobrindo joias escondidas . Confira todas os temas e roteiros disponíveis que lhe mostrarão a cidade de diferentes perspectivas.",
     "imagem1": "img/budapest.jpg",
-    "imagem2": "",
+    "imagem2": "img/budapeste2.jpg",
 },
 
 {
@@ -85,7 +85,7 @@ let listaCidades = [{
     "pais": "itália",
     "descricao": "Cansado de passeios turísticos, pré-programados e lotados pelo país?Venha e disfrute desses passeios privados, seguros, interativos e ecológicos. Descubra os segredos de Veneza, aprenda a sua história, cultura e tradições. Beneficie de toda a experiência e veja todas as suas perguntas respondidas, visitando as principais atrações e descobrindo joias escondidas . Confira todas os temas e roteiros disponíveis que lhe mostrarão a cidade de diferentes perspectivas.",
     "imagem1": "img/veneza.jpg",
-    "imagem2": "",
+    "imagem2": "img/veneza2.jpg",
 },
 
 

@@ -84,6 +84,7 @@ cidadesLista.forEach(cidade => {
   document.getElementById("listaCidades").innerHTML += html;
 });
 
+
 // Atribuir eventos de clique aos elementos <a> existentes
 cidadesLista.forEach(cidade => {
   let cidadeLink = document.querySelector(`.cidade-${cidade.nome}`);

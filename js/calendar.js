@@ -484,7 +484,7 @@ function getEvents() {
   if (localStorage.getItem("reservas") === null) {
     return;
   }
-  eventsArr.push(...JSON.parse(localStorage.getItem("reservas")));
+  eventsArr.push(JSON.parse(localStorage.getItem("reservas")));
 }
 
 function convertTime(time) {

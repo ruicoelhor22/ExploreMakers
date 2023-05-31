@@ -18,7 +18,7 @@ let visitantes = [{
 }]
 
 
-if (localStorage.getItem("visitantes") != null) {
+if (localStorage.getItem("visitantes") == null) {
     localStorage.setItem("visitantes", JSON.stringify(visitantes))
 
 }
