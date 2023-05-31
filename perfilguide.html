@@ -117,7 +117,7 @@
             <ol class="breadcrumb mb-0">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
               <li class="breadcrumb-item"><a href="login.html">Login</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Perfil Visitante</li>
+              <li class="breadcrumb-item active" aria-current="page">Perfil Guia Turístico</li>
               <li class="ml-auto"><button id="logout">Logout</button></li>
             </ol>
           </nav>
@@ -131,62 +131,12 @@
           <div class="card mb-4">
             <div class="card-body text-center">
               <img src="/img/user.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-              <h5 class="my-3" id="nome">John Smith</h5>
-              <p class="text-muted mb-4" id="profissao">Full Stack Developer</p>
+              <h5 class="my-3" id="nome">Guia</h5>
+              <p class="text-muted mb-4" id="profissao">Guia</p>
 
             </div>
           </div>
 
-          <div class="align-items-center" style="display: flex; justify-content: center; align-items: center;">
-            <a class="btn btn-primary py-md-3 px-md-5 mt-2" onclick="openPopup('popup1')">Escrever avaliação</a>
-          </div>
-
-          <div id="popup1" class="popup">
-            <div class="popup-content">
-              <h4>Escrever avaliação</h4>
-              <div class="container-fluid py-5">
-                <div class="container py-1">
-                  <div class="text-center">
-                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Avaliação</h6>
-                    <h1>Avalie a sua experiência de viagem com a ExploreMakers!</h1>
-                  </div>
-                  <div class="row justify-content-center">
-
-                    <div class="contact-form bg-white" style="padding: 30px;">
-                      <div id="success"></div>
-                      <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                        <div class="form-row">
-                          <!--
-                          <div class="control-group col-sm-6">
-                            <input type="text" class="form-control p-4" id="nome" placeholder="Nome" required="required"
-                              data-validation-required-message="Please enter your name" />
-                            <p class="help-block text-danger"></p>
-                          </div>
-                          <div class="control-group col-sm-6">
-                            <input type="email" class="form-control p-4" id="email" placeholder="Email"
-                              required="required" data-validation-required-message="Please enter your email" />
-                            <p class="help-block text-danger"></p>
-                          </div>
-                          -->
-                        </div>
-                        <div class="control-group">
-                          <textarea class="form-control py-3 px-4" rows="5" id="av" placeholder="A sua avaliação"
-                            required="required" data-validation-required-message="Por favor escreva a sua avaliação"></textarea>
-                          <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="text-center">
-                          <button class="btn btn-primary py-3 px-4" type="submit" id="enviarAv">Enviar</button>
-                          <button class="btn btn-primary py-3 px-4" onclick="closePopup('popup1')">Fechar</button>
-                        </div>
-                        
-                      </form>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <style>
             .popup {
@@ -259,16 +209,16 @@
                   <p class="mb-0">Contacto</p>
                 </div>
                 <div class="col-sm-9">
-                  <p class="text-muted mb-0" id="contacto">(097) 234-5678</p>
+                  <p class="text-muted mb-0" id="contacto">912 123 456</p>
                 </div>
               </div>
               <hr>
               <div class="row">
                 <div class="col-sm-3">
-                  <p class="mb-0">País</p>
+                  <p class="mb-0">Linguagens</p>
                 </div>
                 <div class="col-sm-9">
-                  <p class="text-muted mb-0" id="pais">Bay Area, San Francisco, CA</p>
+                  <p class="text-muted mb-0" id="pais">Portugues, Ingles</p>
                 </div>
               </div>
             </div>

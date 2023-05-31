@@ -401,6 +401,7 @@ let meiot = tipo1.tipo;
     preco : preco,
     horaInicio : timeFrom /*+ " - " + */, 
     horaFim: adicionarHoras(timeFrom, duracao),
+    guia: "",
 
   };
   console.log(newEvent);

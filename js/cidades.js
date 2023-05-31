@@ -141,7 +141,7 @@ function carregarInformacoCidade(cidade) {
     let nomeCidade = urlParamsl.get("cidade")
 
     window.location.href = 'tipotour.html?cidade=' + nomeCidade;
-    alert(nomeCidade)
+    //alert(nomeCidade)
   });
 }
 
