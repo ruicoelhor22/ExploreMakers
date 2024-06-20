@@ -25,3 +25,6 @@ Due to time constraints during development, the application uses local storage a
 
 You can use email:  "aa@email.com" and password:  "a" credentials for testing or you can create a new profile. 
 
+## Development
+It was developed mainly with HTML, using Bootstrap for correct formating and to function in every display resolution. It also uses CSS for styling of the app. 
+The server side, functionalities and database (in local storage) was developed with JavaScript. 
