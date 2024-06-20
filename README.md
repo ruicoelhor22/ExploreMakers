@@ -28,3 +28,9 @@ You can use email:  "aa@email.com" and password:  "a" credentials for testing or
 ## Development
 It was developed mainly with HTML, using Bootstrap for correct formating and to function in every display resolution. It also uses CSS for styling of the app. 
 The server side, functionalities and database (in local storage) was developed with JavaScript. 
+
+---
+![image](https://github.com/ruicoelhor22/ExploreMakers/assets/58275291/815f1853-6684-46d7-93ca-6cd1900b315b)
+
+![image](https://github.com/ruicoelhor22/ExploreMakers/assets/58275291/0d190c88-63c4-4d71-b0fc-c8aeccb7db8f)
+
